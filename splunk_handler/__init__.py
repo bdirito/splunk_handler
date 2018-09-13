@@ -49,7 +49,7 @@ class SplunkHandler(logging.Handler):
                  hostname=None, source=None, sourcetype='text',
                  verify=True, timeout=60, flush_interval=15.0,
                  queue_size=5000, debug=False, retry_count=5,
-                 retry_backoff=2.0, multiple_process=False):
+                 retry_backoff=2.0, multiple_process=False
                  protocol='https', proxies = None,
                  record_format = False):
 
